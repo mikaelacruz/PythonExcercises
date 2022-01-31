@@ -1,7 +1,6 @@
 """Roman Numeral to Integer
 Given a Roman Numeral, convert it to an integer
 
-
 # input string
 s = "MCDLXXIX"
 
@@ -35,13 +34,15 @@ while i < len(s):
 		count += roman_dict[s[i]]
 		i += 1
 print(count)
-"""
-import collections
-
-"""
+################################################################################################
 First Unique Character in a String
 Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
-"""
+
+# SOLUTION 1
+
+# TIME COMPLEXITY O(N) SINCE WE GO THROUGH THE STRING OF LENGTH N TWO TIMES
+# SPACE COMPLEXITY O(1) BECAUSE ENGLISH ALPHABET CONTAINS 26 LETTERS
+
 
 s = "leetlovecode"
 # builds hash map: character and how often it appears
@@ -53,13 +54,37 @@ for index, letter in enumerate(s):
 		print(index)
 #return -1
 
+counter = Counter(s)
+for i, j in counter.items():
+	if j==1:
+		return s.index(i)
+	return -1
+
 # The first printed element is the first unique character
 # if in a class definition, then just return the index
 
 
+# SOLUTION 2
+# TIME COMPLEXITY O(N)
+# SPACE COMPLEXITY O(N)
+
+# build dictionary with seen letters
+
+seen_letters = {}
+for letters in s:
+	seen_letters[letters] = 1+ seen.get(letters,0)
+
+for i, letters in enumerate(s):
+	if seen_letters[letters] == 1:
+		return i
+return -1
 
 
-"""
+
+
+
+
+
 
 
 """
