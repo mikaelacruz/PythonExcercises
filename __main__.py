@@ -1,6 +1,6 @@
 """Roman Numeral to Integer
 Given a Roman Numeral, convert it to an integer
-"""
+
 
 # input string
 s = "MCDLXXIX"
@@ -34,4 +34,19 @@ while i < len(s):
 	else:
 		count += roman_dict[s[i]]
 		i += 1
-print(count)
+print(count)"""
+import collections
+
+"""
+First Unique Character in a String
+Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
+"""
+
+s = "leetlovecode"
+count = collections.Counter(s)
+
+for index, letter in enumerate(s):
+	if count[letter] == 1:
+		print(index)
+
+# The first printed element is the first unique character
