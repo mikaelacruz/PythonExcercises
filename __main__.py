@@ -34,7 +34,8 @@ while i < len(s):
 	else:
 		count += roman_dict[s[i]]
 		i += 1
-print(count)"""
+print(count)
+"""
 import collections
 
 """
@@ -43,10 +44,22 @@ Given a string s, find the first non-repeating character in it and return its in
 """
 
 s = "leetlovecode"
+# builds hash map: character and how often it appears
+# uses python built-in collections counter
 count = collections.Counter(s)
 
 for index, letter in enumerate(s):
 	if count[letter] == 1:
 		print(index)
+#return -1
 
 # The first printed element is the first unique character
+# if in a class definition, then just return the index
+
+
+
+
+"""
+
+
+"""
