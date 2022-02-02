@@ -48,9 +48,9 @@ def rotation(list_1, list_2):
 	#    we are iterating through list_2, but matching up the indices that correlate to list_1
 	#    realpython.com/python-modulo-operator/ has good clock example that helped me lol
 	#    IF SOMETHING DOES NOT MATCH THEN RETURN FALSE BC THEY ARE NOT ROTATIONS
-	for x in range(len(list_1):
-		list_2_index = (key_index + x) % len(list_1)
-			if list_1[x] != list_2[list_2_index]
-				return False
+	for x in range(len(list_1)):
+		list_2_index = ((key_index + x) % len(list_1))
+		if list_1[x] != list_2[list_2_index]:
+			return False
 	# Made it here, then they are truly array bestie rotations :)
 	return True
