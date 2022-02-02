@@ -15,12 +15,11 @@ def unique_characters_in_string_builtin(s):
 
 def unique_characters_in_string(s):
 	# Check if te string is not empty
-	#    and check it only has alphabet letters in it
-	#    if so,
+	#    if not empty,
 	#        then take out whitespaces and make them all lower case
 	#    else
 	#        return False bc we got nothing good here fam
-	if s and s.alpha():
+	if s:
 		s = s.replace(' ', '').lower()
 	else:
 		return False

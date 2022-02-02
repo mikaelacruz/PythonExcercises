@@ -5,12 +5,9 @@ import array_most_frequently_occurring
 import array_pair_sum
 import array_rotation
 import reverse_words
+import unique_character_in_string
 
 __name__ == '__main__'
 
 s = "23sdafasf"
-if s and s.isalpha():
-	s = s.replace(' ','').lower()
-	print(s)
-else:
-	print("Error: Nada, boss")
+print(unique_character_in_string.unique_characters_in_string(s))
