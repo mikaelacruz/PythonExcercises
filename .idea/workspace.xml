@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Cleaning up code">
-      <change afterPath="$PROJECT_DIR$/array_largest_sum.py" afterDir="false" />
+    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Added array_largest_sum exercise">
+      <change afterPath="$PROJECT_DIR$/reverse_words.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643762793409</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added array_largest_sum exercise">
+      <created>1643765937106</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1643765937106</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,7 +166,8 @@
     <MESSAGE value="Refactoring exercises into their own files, restoring main to it's TRUE purpose, and overall code cleanup" />
     <MESSAGE value="Added array_pair_sum exercise" />
     <MESSAGE value="Cleaning up code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaning up code" />
+    <MESSAGE value="Added array_largest_sum exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added array_largest_sum exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

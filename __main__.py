@@ -1,8 +1,9 @@
 import anagram
 import array_largest_sum
 import array_pair_sum
+import reverse_words
 
 __name__ == '__main__'
-nums = [7, 1, 2, -1, 3, 4, 10, -12, 3, 21, -19]
+s = "this is the best"
 
-array_largest_sum.largest_sum(nums)
+print(reverse_words.reverse_string(s))
