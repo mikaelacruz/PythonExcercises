@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Refactoring exercises into their own files, restoring main to it's TRUE purpose, and overall code cleanup">
-      <change afterPath="$PROJECT_DIR$/array_pair_sum.py" afterDir="false" />
+    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Added array_pair_sum exercise">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contains_duplicate.py" beforeDir="false" afterPath="$PROJECT_DIR$/contains_duplicate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_unique_character_in_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_unique_character_in_string.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643756991465</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added array_pair_sum exercise">
+      <created>1643762362925</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1643762362925</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,9 +148,19 @@
     <MESSAGE value="Added second solution to finding first unique character in a string" />
     <MESSAGE value="Added Contains Duplication problem" />
     <MESSAGE value="Refactoring exercises into their own files, restoring main to it's TRUE purpose, and overall code cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring exercises into their own files, restoring main to it's TRUE purpose, and overall code cleanup" />
+    <MESSAGE value="Added array_pair_sum exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added array_pair_sum exercise" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/contains_duplicate.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="count" language="Python" />
