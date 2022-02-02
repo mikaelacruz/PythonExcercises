@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Fixed some tabs">
-      <change afterPath="$PROJECT_DIR$/array_common_elements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/array_most_frequently_occuring.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Added Array Common Elements, and Array Most Frequently Occurring">
+      <change afterPath="$PROJECT_DIR$/edge_and_corner_cases.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique_character_in_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/unique_character_in_string.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +164,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643778168372</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added Array Common Elements, and Array Most Frequently Occurring">
+      <created>1643781886378</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1643781886378</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added Array Common Elements, and Array Most Frequently Occurring">
+      <created>1643781912882</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1643781912882</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,7 +206,8 @@
     <MESSAGE value="Added reverse_words exercise" />
     <MESSAGE value="Added Array Rotations!" />
     <MESSAGE value="Fixed some tabs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed some tabs" />
+    <MESSAGE value="Added Array Common Elements, and Array Most Frequently Occurring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Array Common Elements, and Array Most Frequently Occurring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

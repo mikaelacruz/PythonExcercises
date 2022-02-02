@@ -8,4 +8,9 @@ import reverse_words
 
 __name__ == '__main__'
 
-print(array_most_frequently_occuring.most_frequent([1, 3, 3, 3, 2, 1, 1, 1]))
+s = "23sdafasf"
+if s and s.isalpha():
+	s = s.replace(' ','').lower()
+	print(s)
+else:
+	print("Error: Nada, boss")
