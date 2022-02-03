@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Added binary_tree.py">
-      <change afterPath="$PROJECT_DIR$/longest_substring.py" afterDir="false" />
+    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Added longest_substring.py">
+      <change afterPath="$PROJECT_DIR$/array_maximum_subarray.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_unique_character_in_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_unique_character_in_string.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643840839308</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added longest_substring.py">
+      <created>1643853549643</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1643853549643</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,7 +253,8 @@
     <MESSAGE value="Added unique_character_in_string.py :)" />
     <MESSAGE value="Updated unique_character_in_string.py" />
     <MESSAGE value="Added binary_tree.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added binary_tree.py" />
+    <MESSAGE value="Added longest_substring.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added longest_substring.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -259,6 +266,13 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -266,6 +280,9 @@
         <watch expression="s[i]" language="Python" />
         <watch expression="len(s)" language="Python" />
         <watch expression="s[i:i+2]" language="Python" />
+        <watch expression="current_subarray_sum" language="Python" />
+        <watch expression="max_subarray_sum" language="Python" />
+        <watch expression="num" language="Python" />
       </configuration>
     </watches-manager>
   </component>
