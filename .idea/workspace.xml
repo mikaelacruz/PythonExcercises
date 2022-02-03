@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Updated unique_character_in_string.py">
-      <change afterPath="$PROJECT_DIR$/binary_tree.py" afterDir="false" />
+    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Added binary_tree.py">
+      <change afterPath="$PROJECT_DIR$/longest_substring.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_unique_character_in_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_unique_character_in_string.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RunManager">
@@ -205,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643829022721</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added binary_tree.py">
+      <created>1643840839308</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1643840839308</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,7 +246,8 @@
     <MESSAGE value="Added Array Common Elements, and Array Most Frequently Occurring" />
     <MESSAGE value="Added unique_character_in_string.py :)" />
     <MESSAGE value="Updated unique_character_in_string.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated unique_character_in_string.py" />
+    <MESSAGE value="Added binary_tree.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added binary_tree.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -244,13 +255,13 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/contains_duplicate.py</url>
           <line>8</line>
+          <option name="temporary" value="true" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="count" language="Python" />
         <watch expression="i" language="Python" />
         <watch expression="s[i]" language="Python" />
         <watch expression="len(s)" language="Python" />

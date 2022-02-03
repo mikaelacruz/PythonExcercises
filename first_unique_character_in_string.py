@@ -1,4 +1,3 @@
-
 def first_unique_character_in_string(s):
 	"""
 	First Unique Character in a String
@@ -18,7 +17,6 @@ def first_unique_character_in_string(s):
 	# builds hash map: character and how often it appears
 	# uses python built-in collections counter
 	count = collections.Counter(s)
-
 
 	for index, letter in enumerate(s):
 		if count[letter] == 1:
@@ -60,7 +58,6 @@ def first_unique_character_in_string_with_enumerate(s):
 		if seen_letters[letters] == 1:
 			return i
 	return -1
-
 
 
 def unique_character_in_string_with_builtins(s):
@@ -128,6 +125,7 @@ def non_repeating_elements(s):
 	if s:
 		s = s.replace(' ', '').lower()
 
+	char_count = {}
 	# Iterate over every character in the string
 	# IF we have a character in our dictionary already,
 	#    then add the additional occurrence AKA NOT a unique letter smh
@@ -150,7 +148,7 @@ def non_repeating_elements(s):
 	# This will compare each index position of each tuple because remember we have a list
 	#     and if we have a key and a value that's going to be separated by a comma in the list
 	#     not like the dictionary where it they have :
-	y = sorted(char_count.items(), key = lambda x: x[1])
+	y = sorted(char_count.items(), key=lambda x: x[1])
 	# y should look something like this now
 	# y = [ ( 'i', 1 ), ( 's', 1 ) , ( 'a', 2 ), ( 'l', 2 ), ( 'p', 4 ), ( 'e', 4 )]
 	#        item1        item2         item3       item4      item5       item6
