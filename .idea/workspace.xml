@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Updated Longest Common Prefix">
-      <change afterPath="$PROJECT_DIR$/split_string_into_list_of_char.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/valid_palindrome.py" afterDir="false" />
+    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Updated Valid Palindrome">
+      <change afterPath="$PROJECT_DIR$/valid_parentheses.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643943283083</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Updated Valid Palindrome">
+      <created>1643945670104</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1643945670105</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,7 +299,8 @@
     <MESSAGE value="Added best_time_to_buy_and_sell_stock.py" />
     <MESSAGE value="Updated decode_string and added longest_common_prefix.py" />
     <MESSAGE value="Updated Longest Common Prefix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Longest Common Prefix" />
+    <MESSAGE value="Updated Valid Palindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Valid Palindrome" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
