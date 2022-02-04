@@ -33,7 +33,6 @@ s consists of parentheses only '()[]{}'.
 def valid_parentheses(s):
     # stack to keep track of opening brackets
     stack = []
-    top_element = ""
 
     # dictionary for keeping track of key:val pairs aka the brack pairs :)
     pairs = {")": "(", "}": "{", "]": "["}
@@ -53,10 +52,8 @@ def valid_parentheses(s):
 
             # if the pair for the opening bracket in our dictionary
             #    and the top element from teh stack don't match return False
-            if pairs(char) != top_element:
+            if pairs[char] != top_element:
                 return False
-            else:
-                stack.append(char)
         # else we have an opening bracket, simply push it onto the stack
         else:
             stack.append(char)

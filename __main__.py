@@ -1,3 +1,4 @@
+import add_strings
 import anagram
 import array_common_elements
 import array_largest_sum
@@ -12,8 +13,10 @@ import longest_substring
 import reverse_words
 import unique_character_in_string
 import valid_palindrome
+import valid_parentheses
 
 __name__ == '__main__'
 
-s = ["abca"]
-print(valid_palindrome.valid_palindrome(s))
+num_1 = "1789"
+num_2 = "15"
+print(add_strings.add_strings(num_1, num_2))
