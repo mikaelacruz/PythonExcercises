@@ -7,11 +7,12 @@ import array_pair_sum
 import array_rotation
 import best_time_to_buy_and_sell_stock
 import first_unique_character_in_string
+import longest_common_prefix
 import longest_substring
 import reverse_words
 import unique_character_in_string
 
 __name__ == '__main__'
 
-prices = [7, 1, 5, 3, 6, 4]
-print(best_time_to_buy_and_sell_stock.best_time_to_buy_sell_stock(prices))
+strs = ["flower", "flow", "flight"]
+print(longest_common_prefix.longest_common_prefix(strs))

@@ -2,14 +2,20 @@
 Longest Common Prefix
 
 """
+
+
 def longest_common_prefix(strs):
-    first_word = strs[0].split()
-    common_prefix = []
+    # Result is the output of our longest common prefix
+    result = ""
 
-    for i in range(1, len(strs)):
-        compare_word = strs[i].split()
-        for j in first_word:
-            if first_word[j] == compare_word[i]:
-                common_prefix.append(first_word[j])
-
-    return common_prefix
+    # Iterate through the first word
+    for i in range(len(strs[0])):
+        # Iterate through the words in strs
+        for s in strs:
+            # If we are either at the end of the word entirely OR letters aren't matching
+            #           THEN WE RETURN WHAT WE HAVE whatever it may be
+            if i == len(s) or s[i] != strs[0][i]:
+                return result
+            # We are adding the letters that have matched each other to the result list
+        result += strs[0][i]
+    return result
