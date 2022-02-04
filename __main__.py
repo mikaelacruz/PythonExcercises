@@ -11,8 +11,9 @@ import longest_common_prefix
 import longest_substring
 import reverse_words
 import unique_character_in_string
+import valid_palindrome
 
 __name__ == '__main__'
 
-strs = ["flower", "flow", "flight"]
-print(longest_common_prefix.longest_common_prefix(strs))
+s = ["abca"]
+print(valid_palindrome.valid_palindrome(s))
