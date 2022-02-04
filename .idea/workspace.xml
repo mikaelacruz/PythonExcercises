@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Updated valid_parentheses.py">
+    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Refactored all names">
+      <change afterPath="$PROJECT_DIR$/linked_list_merge_two_sorted_lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary_anagram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_time_to_buy_and_sell_stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming_best_time_to_buy_and_sell_stock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contains_duplicate.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary_contains_duplicate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decode_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/stack_decode_string.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_unique_character_in_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary_first_unique_character_in_string.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/longest_common_prefix.py" beforeDir="false" afterPath="$PROJECT_DIR$/string_longest_common_prefix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/longest_substring.py" beforeDir="false" afterPath="$PROJECT_DIR$/string_longest_substring.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reverse_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/string_reverse_words.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roman_numeral_to_integer.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary_roman_numeral_to_integer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/split_string_into_list_of_char.py" beforeDir="false" afterPath="$PROJECT_DIR$/string_split_string_into_list_of_char.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unique_character_in_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/string_unique_character_in_string.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/valid_palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/string_valid_palindrome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/valid_parentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/stack_valid_parentheses.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644003980829</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Refactored all names">
+      <created>1644006811469</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1644006811469</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -328,7 +324,8 @@
     <MESSAGE value="Updated Valid Palindrome" />
     <MESSAGE value="Added valid_parentheses.py" />
     <MESSAGE value="Updated valid_parentheses.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated valid_parentheses.py" />
+    <MESSAGE value="Refactored all names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored all names" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

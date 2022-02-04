@@ -8,6 +8,7 @@ import array_pair_sum
 import array_rotation
 import dynamic_programming_best_time_to_buy_and_sell_stock
 import dictionary_first_unique_character_in_string
+import linked_list_merge_two_sorted_lists
 import string_longest_common_prefix
 import string_longest_substring
 import string_reverse_words
@@ -16,7 +17,3 @@ import string_valid_palindrome
 import stack_valid_parentheses
 
 __name__ == '__main__'
-
-num_1 = "1789"
-num_2 = "15"
-print(add_strings.add_strings(num_1, num_2))
