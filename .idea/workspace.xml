@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Added math_function.py and test_math_function.py">
+    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Updated test_math_function.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_maximum_subarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/array_maximum_subarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked_list_merge_two_sorted_lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list_merge_two_sorted_lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/string_longest_substring.py" beforeDir="false" afterPath="$PROJECT_DIR$/string_longest_substring.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_math_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_math_function.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -297,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644169366023</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Updated test_math_function.py">
+      <created>1644171392182</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1644171392182</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,7 +324,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated first unqiue character in a string - added clarifying comments" />
     <MESSAGE value="Added second solution to finding first unique character in a string" />
     <MESSAGE value="Added Contains Duplication problem" />
     <MESSAGE value="Refactoring exercises into their own files, restoring main to it's TRUE purpose, and overall code cleanup" />
@@ -338,7 +348,8 @@
     <MESSAGE value="Refactored all names" />
     <MESSAGE value="Added linked_list_merge_two_sorted_lists.py" />
     <MESSAGE value="Added math_function.py and test_math_function.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added math_function.py and test_math_function.py" />
+    <MESSAGE value="Updated test_math_function.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated test_math_function.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

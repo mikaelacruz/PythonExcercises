@@ -17,3 +17,6 @@ import string_valid_palindrome
 import stack_valid_parentheses
 
 __name__ == '__main__'
+
+prices = [5, 2, 6, 1]
+print(dynamic_programming_best_time_to_buy_and_sell_stock.best_time_to_buy_sell_stock(prices))

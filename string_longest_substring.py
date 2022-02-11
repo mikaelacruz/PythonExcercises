@@ -12,8 +12,7 @@ def longest_substring(s):
 	curr_max_sub_string = ""  # and this is current longest sub-string
 
 	for i in range(len(s)):
-		if s[
-			i] not in curr_max_sub_string:  # if current  word in s not in curr_max_sub_string, I add this char to
+		if s[i] not in curr_max_sub_string:  # if current  word in s not in curr_max_sub_string, I add this char to
 			# curr_max_sub_string
 			curr_max_sub_string = curr_max_sub_string + s[i]
 		else:  # if I have this char in my curr_max_sub_string

@@ -29,19 +29,43 @@ There are two ways to do this: Iteratively or recursively.
 
 
 class ListNode:
-    def __init__(self, val, next=None):
-        self.val = val
+    def __init__(self, data):
+        self.data = data
+        self.next = None
 
 
-class Solution:
+class LinkedList:
+    def __init(self):
+        self.head = None
+
+    def print_list(self):
+        temp = self.head
+        while temp:
+            print(temp.data, end=" ")
+            temp = temp.next
+
+    # Method to add element to list
+    def addToList(self, newData):
+        newNode = Node(newData)
+        if self.head is None:
+            self.head = newNode
+            return
+
+        last = self.head
+        while last.next:
+            last = last.next
+
+        last.next = newNode
+
+
     def merge_two_sorted_lists(l1, l2):
         if l1 is None:
             return l2
         elif l2 is None:
             return l1
-        elif l1.val < l2.val:
-            l1.next = self.merge_two_sorted_lists(l1.next, l2)
+        elif l1.data < l2.data:
+            l1.next = l1.merge_two_sorted_lists(l1.next, l2)
             return l1
         else:
-            l2.next = self.merge_two_sorted_lists(l1, l2.next)
+            l2.next = l1.merge_two_sorted_lists(l1, l2.next)
             return l2
