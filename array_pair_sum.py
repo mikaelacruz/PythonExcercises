@@ -8,7 +8,6 @@ pair_sum(array, k)"""
 
 
 def pair_sum(array, k):
-
 	# Some considerations: null, letters, negative numbers.
 
 	# Check: Problem wants a PAIR of integers. If the array has ONE number, then this array is too small.

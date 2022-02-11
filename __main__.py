@@ -1,4 +1,5 @@
 import add_strings
+import array_find_largest_element
 import dictionary_anagram
 import array_common_elements
 import array_largest_sum
@@ -18,5 +19,5 @@ import stack_valid_parentheses
 
 __name__ == '__main__'
 
-prices = [5, 2, 6, 1]
-print(dynamic_programming_best_time_to_buy_and_sell_stock.best_time_to_buy_sell_stock(prices))
+array = [1, 3, 2, 2, 9, 10]
+print(array_find_largest_element.array_find_largest_element(array))
