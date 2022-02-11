@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Added array_find_largest_element.py">
-      <change afterPath="$PROJECT_DIR$/array_sort_unsorted_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/counting_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selection_sort.py" afterDir="false" />
+    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Added array_sort_unsorted_array.py, counting_sort.py, and selection_sort.py">
+      <change afterPath="$PROJECT_DIR$/array_find_kth_element.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644608023141</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Added array_sort_unsorted_array.py, counting_sort.py, and selection_sort.py">
+      <created>1644610499842</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1644610499842</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,7 +342,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Contains Duplication problem" />
     <MESSAGE value="Refactoring exercises into their own files, restoring main to it's TRUE purpose, and overall code cleanup" />
     <MESSAGE value="Added array_pair_sum exercise" />
     <MESSAGE value="Cleaning up code" />
@@ -360,7 +366,8 @@
     <MESSAGE value="Added math_function.py and test_math_function.py" />
     <MESSAGE value="Updated test_math_function.py" />
     <MESSAGE value="Added array_find_largest_element.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added array_find_largest_element.py" />
+    <MESSAGE value="Added array_sort_unsorted_array.py, counting_sort.py, and selection_sort.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added array_sort_unsorted_array.py, counting_sort.py, and selection_sort.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

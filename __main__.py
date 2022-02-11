@@ -1,4 +1,5 @@
 import add_strings
+import array_find_kth_element
 import array_find_largest_element
 import array_sort_unsorted_array
 import dictionary_anagram
@@ -20,5 +21,6 @@ import stack_valid_parentheses
 import array_find_largest_element
 __name__ == '__main__'
 
-array = [1, 3, 2, 2, 9]
-print(array_sort_unsorted_array.sort_unsorted_array(array))
+nums = [3, 2, 1, 5, 6, 4]
+k = 2
+print(array_find_kth_element.find_kth_smallest(nums, k))
