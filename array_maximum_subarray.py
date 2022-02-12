@@ -29,6 +29,7 @@ Overall conclusion from Example 1 and Example 2: We need a GENERAL way to figure
 
 How about: Any subarray whose sum is positive is worth keeping?
 Let's try that. (I'll also upload my hand drawn notes to this repo as a pdf)
+"""
 
 def maximum_subarray(nums):
     # Initialize our variables using the first element
@@ -38,9 +39,9 @@ def maximum_subarray(nums):
     #    We will continuously update max_subarray_sum as we iterate through
     # current_subarray will be the actual subarray that contains the elements we are collection
 
-    current_subarray_sum = max_subarray_sum = nums[0
+    current_subarray_sum = max_subarray_sum = nums[0]
 
     for num in nums[1:]:
         current_subarray_sum = max(num, current_subarray_sum + num)
         max_subarray_sum = max(max_subarray_sum, current_subarray_sum)
-    return max_subarray_sum"""
+    return max_subarray_sum

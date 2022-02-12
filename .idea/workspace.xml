@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Added array_median_of_two_sorted_arrays.py">
-      <change afterPath="$PROJECT_DIR$/heap_sort.py" afterDir="false" />
+    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Added heap_sort, and a new method to array_merge_sorted_three_pointer.py -- a way to merge two unsorted arrays via heapsort.">
+      <change afterPath="$PROJECT_DIR$/array_get_median.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array_merge_sorted_three_pointer.py" beforeDir="false" afterPath="$PROJECT_DIR$/array_merge_sorted_three_pointer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array_maximum_subarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/array_maximum_subarray.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -362,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644699147391</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Added heap_sort, and a new method to array_merge_sorted_three_pointer.py -- a way to merge two unsorted arrays via heapsort.">
+      <created>1644704602812</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1644704602812</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,7 +384,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added reverse_words exercise" />
     <MESSAGE value="Added Array Rotations!" />
     <MESSAGE value="Fixed some tabs" />
     <MESSAGE value="Added Array Common Elements, and Array Most Frequently Occurring" />
@@ -403,7 +408,8 @@
     <MESSAGE value="added array_merge_sorted_three_pointer.py" />
     <MESSAGE value="Updated array_merge_sorted_three_pointer.py - added a return statement in order to get the array output" />
     <MESSAGE value="Added array_median_of_two_sorted_arrays.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added array_median_of_two_sorted_arrays.py" />
+    <MESSAGE value="Added heap_sort, and a new method to array_merge_sorted_three_pointer.py -- a way to merge two unsorted arrays via heapsort." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added heap_sort, and a new method to array_merge_sorted_three_pointer.py -- a way to merge two unsorted arrays via heapsort." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
