@@ -1,6 +1,7 @@
 import add_strings
 import array_find_kth_element
 import array_find_largest_element
+import array_median_of_two_sorted_arrays
 import array_merge_sorted_three_pointer
 import array_sort_unsorted_array
 import dictionary_anagram
@@ -23,8 +24,6 @@ import array_find_largest_element
 __name__ == '__main__'
 
 
-nums1 = [1, 2, 3, 0, 0, 0]
-m = 3
-nums2 = [2, 5, 6]
-n = 3
-print(array_merge_sorted_three_pointer.merge_two_sorted_arrays(nums1, m, nums2, n))
+nums1 = [1, 3]
+nums2 = [2]
+print(array_median_of_two_sorted_arrays.find_median_two_sorted_arrays(nums1, nums2))

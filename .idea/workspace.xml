@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="updated find_kth_element">
-      <change afterPath="$PROJECT_DIR$/array_merge_sorted_three_pointer.py" afterDir="false" />
+    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Updated array_merge_sorted_three_pointer.py - added a return statement in order to get the array output">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -332,7 +331,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644617764158</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="added array_merge_sorted_three_pointer.py">
+      <created>1644697353483</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1644697353483</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Updated array_merge_sorted_three_pointer.py - added a return statement in order to get the array output">
+      <created>1644697505011</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1644697505011</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -348,8 +361,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added array_pair_sum exercise" />
-    <MESSAGE value="Cleaning up code" />
     <MESSAGE value="Added array_largest_sum exercise" />
     <MESSAGE value="Added reverse_words exercise" />
     <MESSAGE value="Added Array Rotations!" />
@@ -373,7 +384,9 @@
     <MESSAGE value="Added array_find_largest_element.py" />
     <MESSAGE value="Added array_sort_unsorted_array.py, counting_sort.py, and selection_sort.py" />
     <MESSAGE value="updated find_kth_element" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated find_kth_element" />
+    <MESSAGE value="added array_merge_sorted_three_pointer.py" />
+    <MESSAGE value="Updated array_merge_sorted_three_pointer.py - added a return statement in order to get the array output" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated array_merge_sorted_three_pointer.py - added a return statement in order to get the array output" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
