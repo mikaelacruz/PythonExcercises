@@ -29,13 +29,13 @@ Space Complexity:
 
 
 """
+import heap_sort
 
 
 def merge_two_sorted_arrays(nums1, m, nums2, n):
     # Set p1 and p2 to point to the end of their respective arrays.
     p1 = m - 1
     p2 = n - 1
-
     # And move p backwards through the array, each time writing
     # the smallest value pointed at by p1 or p2.
     for p in range(n + m - 1, -1, -1):
@@ -49,3 +49,16 @@ def merge_two_sorted_arrays(nums1, m, nums2, n):
             p2 -= 1
 
     return nums1
+
+
+def find_median_merge_w_heap(nums1, nums2):
+    nums1 = nums1 + nums2
+    heap_sort.heap_sort(nums1)
+    median = len(nums1) / 2
+
+    if len(nums1) % 1 == 1:
+        average_median = ((nums1[int(median)] + nums1[int(median - 1)]) / 2)
+        return average_median
+    else:
+        average_median = len(nums1) / 2
+        return average_median

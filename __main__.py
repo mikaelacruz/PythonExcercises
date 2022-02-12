@@ -14,6 +14,7 @@ import array_rotation
 import dynamic_programming_best_time_to_buy_and_sell_stock
 import dictionary_first_unique_character_in_string
 import linked_list_merge_two_sorted_lists
+import heap_sort
 import string_longest_common_prefix
 import string_longest_substring
 import string_reverse_words
@@ -21,9 +22,10 @@ import string_unique_character_in_string
 import string_valid_palindrome
 import stack_valid_parentheses
 import array_find_largest_element
+
 __name__ == '__main__'
 
 
-nums1 = [1, 3]
-nums2 = [2]
-print(array_median_of_two_sorted_arrays.find_median_two_sorted_arrays(nums1, nums2))
+nums1 = [1, 4, 3]
+nums2 = [2, 7, 6]
+print(array_merge_sorted_three_pointer.find_median_merge_w_heap(nums1, nums2))
