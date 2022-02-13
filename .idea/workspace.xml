@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Added dictionary_sort">
+    <list default="true" id="dcdc972c-d67a-4a35-b711-795ab14e1668" name="Changes" comment="Added to binary_tree.py">
+      <change afterPath="$PROJECT_DIR$/array_coin_change.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary_logger_rate_limiter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binary_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/binary_tree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -381,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644713137971</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Added to binary_tree.py">
+      <created>1644715977492</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1644715977492</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -397,7 +405,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Array Common Elements, and Array Most Frequently Occurring" />
     <MESSAGE value="Added unique_character_in_string.py :)" />
     <MESSAGE value="Updated unique_character_in_string.py" />
     <MESSAGE value="Added binary_tree.py" />
@@ -422,7 +429,8 @@
     <MESSAGE value="Added heap_sort, and a new method to array_merge_sorted_three_pointer.py -- a way to merge two unsorted arrays via heapsort." />
     <MESSAGE value="Added array_get_median.py and updated array_maximum_subarray.py" />
     <MESSAGE value="Added dictionary_sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added dictionary_sort" />
+    <MESSAGE value="Added to binary_tree.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added to binary_tree.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
