@@ -8,7 +8,7 @@ import dictionary_anagram
 import array_common_elements
 import array_largest_sum
 import array_maximum_subarray
-import array_most_frequently_occurring
+import array_most_frequently_occurring_element
 import array_pair_sum
 import array_rotation
 import dynamic_programming_best_time_to_buy_and_sell_stock

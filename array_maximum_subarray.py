@@ -31,6 +31,7 @@ How about: Any subarray whose sum is positive is worth keeping?
 Let's try that. (I'll also upload my hand drawn notes to this repo as a pdf)
 """
 
+
 def maximum_subarray(nums):
     # Initialize our variables using the first element
     # This is because we already know we are comparing elements - why not start with the first?
