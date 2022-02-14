@@ -25,7 +25,17 @@ import array_find_largest_element
 
 __name__ == '__main__'
 
+s = "5F3Z-2E-9-W"
+k = 4
+s = s.upper()
+s = s.replace('-', '')
+d = [char for char in s]
 
-nums1 = [1, 4, 3]
-nums2 = [2, 7, 6]
-print(array_merge_sorted_three_pointer.find_median_merge_w_heap(nums1, nums2))
+dash_required = ((len(d)) // k) - 1
+
+
+for i in range(len(d) - 1, -1, -k):
+    if i < k:
+        d.insert(i + 1, '-')
+d = ''.join(d)
+print(d)
