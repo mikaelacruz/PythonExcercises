@@ -27,6 +27,8 @@ Constraints:
 num1 and num2 consist of only digits.
 num1 and num2 don't have any leading zeros except for the zero itself.
 """
+
+
 def add_strings(num_1, num_2):
 
     # empty result structure
@@ -43,6 +45,7 @@ def add_strings(num_1, num_2):
     while point_1 >= 0 or point_2 >= 0:
         # set x1 and x2 equal to a digit from a respective string if reached the beginning of num_1 and num_2
         # otherwise, x1 and x2 = 0
+        # ord returns an integer representing the unicode character
         x1 = ord(num_1[point_1]) - ord('0') if point_1 >= 0 else 0
         x2 = ord(num_2[point_2]) - ord('0') if point_2 >= 0 else 0
         # compute the current value and update carry
