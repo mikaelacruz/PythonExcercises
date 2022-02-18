@@ -47,15 +47,6 @@ i.e "1234" -> "4321" -> 4321 -> "4321"
 
 If what you are trying to do is just reverse the given string, then simply a[::-1] would work
 
-
-
-
-
-
-
-
-
-
 """
 
 

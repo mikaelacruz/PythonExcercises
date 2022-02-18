@@ -1,3 +1,4 @@
+import queue_bfs_open_the_lock
 import string_add_strings
 import array_find_kth_element
 import array_find_largest_element
@@ -25,22 +26,7 @@ import array_find_largest_element
 
 __name__ == '__main__'
 
+deadends = ["0201", "0101", "0102", "1212", "2002"]
+target = "0202"
 
-points = [[1, 2, 3], [1, 5, 1], [3, 1, 1]]
-
-res = max(points[0])
-
-for r in range(1, len(points)):
-    dp = points[r - 1]
-    for d in range(1, len(points[0])):
-        dp[d] = max(dp[d], dp[d - 1] - 1)
-
-    for e in range(len(points[0]) - 2, -1, -1):
-        dp[e] = max(dp[e], dp[e + 1] - 1)
-
-    for c in range(len(points[0])):
-        points[r][c] += dp[c]
-
-        res = max(res, points[r][c])
-
-print(res)
+print(queue_bfs_open_the_lock.open_lock(deadends, target))
